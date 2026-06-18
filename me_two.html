@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+<link <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,
+wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+<title>Bio Web Page</title>
+
+    <style type="text/css">
+        body {font-family:'Nunito Sans', sans-serif}
+        h1 {font-size:50px; color:#43B9CC; margin-bottom: 30px}
+        h2 {font-size:20px; color:#E8980C; margin-bottom: 30px}
+        #animal_list{border: 5px solid #000; width: 300px; margin: auto}
+        #sandwich {background-image: url(teal.jpg); background-size:cover;
+        width: 220px; height: 180px; padding:25px 5px 1px 25px; display: inline-block}
+        #sandwich_text {display: inline-block; vertical-align: top;}
+        td:nth-child(odd), th:nth-child(odd){background-color:#7AE7FC}
+        td:nth-child(even), th:nth-child(even){background-color: #FCF6B9}
+        #media{position: fixed; top: 100px; right: 35px;}
+        #media img {width: 40px; height: 40px; display: block; margin-bottom: 10px; }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Sarah Klein</h1>
+    I took a 5week trip to France and Spain 2 years ago in search of a place to eventually live!
+    <br /> That's the end goal. It was absolutely gorgeous, relaxing, and some of the most delicious
+    <br /> food I have ever eaten. 
+    <br /><br />
+
+    <h2>Silly Animal Names</h2>
+    <div id="animal_list">
+        <ul>
+            <li>A weiner dog named Chin Chin</li>
+            <li>A monkey named Arlington</li>
+            <li>A goat named Stanley</li>
+        </ul>
+    </div>
+    <br /> <br /> 
+
+<h2>Favorite Restaurant</h2>
+<p> My favorite restaurant will forever and always be a deli sandwhich shop. I have so many, but
+    <br /> I will list my favorite one currently. This particular sandwhich shop is my favorite because 
+    <br /> of the variety of sandwhiches to choose from. The recipe combos are all delicious and the
+    <br /> bread is baked to perfection. Ingredients are fresh and proportion size is just right!
+</p>
+
+
+<a href="https://www.highstdeli.com/" target="_blank">Go to High Street Deli</a>
+
+
+<br /> <br />
+
+<div id="sandwich">
+<img src='sammy.png' align="left" width="200">
+</div>
+<div id="sandwich_text">
+*** I LOVE dipping my sandwhich in the Au Jus! 
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It gives it that extra salty and flavorful bite! ***
+</div>
+
+ <br /> <br /> <br /> <br />
+
+<h2>Most Enjoyable Reads!</h2>
+
+<table border= "3" cellpadding="4" cellspacing="5"> 
+    <tr>
+    <th>Favorite Book 1</th>
+    <th>Favorite Book 2</th>
+    <th>Favorite Book 3</th>
+    <th>Favorite Book 4</th>
+    </tr>
+
+    <tr>
+        <td>Title: The Greek Gods</td>
+        <td>Title: The Four Agreements</td>
+        <td>Title: Between the Tides in California</td>
+        <td>Title: Guide to Southern California Surf Spots</td>
+    </tr>
+
+    <tr>
+     <td valign="top" align="left">Author:
+        <ul>
+            <li> Bernard Evslin</li>
+            <li> Dorothy Evslin</li>
+            <li> Ned Hoopes</li>
+        </ul>
+     </td>
+
+     <td valign="top" align="left">Author:
+       <ul>
+            <li> Don Ruiz</li>
+       </ul>
+    </td>
+        
+    <td valign="top" align="left">Author:
+        <ul>
+            <li>Ryan Kelly</li>
+            <li>Terrie Klinger</li>
+            <li>Patrick Krug</li>
+            <li>John Meyer</li>
+        </ul>
+    </td>
+
+    <td valign="top" align="left">Author:
+         <ul>
+            <li>Surfer Magazine</li>
+       </ul>
+    </td>
+    </tr>
+
+      <tr>
+        <td><img src='Oyd.jpg' align="left" width="150"></td>
+        <td><img src='4.jpg' align="left" width="150"></td>
+        <td><img src='T.jpg' align="left" width="150"></td>
+        <td><img src='S.jpg' align="left" width="150"></td>
+    </tr>
+
+    <tr>
+        <td>The book tells famous tales of different gods, goddesses, and demi-gods throughout 
+            the history of Mythology. It's very whimsical.
+        </td>
+
+        <td>It's a philisophical book on how to retrain your thinking to be more grounded
+             and detached from social norms.
+        </td>
+
+        <td>The book gives a detail description on the types of marine life you will find 
+            within the central coast tide pools. It also notes what they eat, where to find them, 
+            when they will be there, and for how long (weeks, months, years, centuries).
+        </td>
+
+        <td>Lists out different surf spots along the southern coast of CA. Gives details as to 
+            what type of break it is, how advanced of a surfer you need to be at that spot,
+            best time to surf based on tide, highlights obstacles to avoid, and describes typical
+             wave sets that come through. 
+        </td>
+    </tr>
+</table>
+
+ <br /> <br />
+
+ 
+<div style="display: flex; text-align: left;">
+    <form action="#" method="get">
+    
+    <div style="display: grid; grid-template-columns: 120px 1fr; gap: 12px;">
+
+<label style='text-align: right;'>First Name:</label>
+<input type="text" name='first name'>
+
+
+<label style='text-align: right;'>Last Name:</label> 
+<input type="text" name='last name'>
+
+
+<label style='text-align: right;'>Email:</label> 
+<input type="text" name='email'>
+
+<label style='text-align: right;'>City:</label>
+ <input type="text" name='city'>
+
+
+<label style='text-align: right;'>Select State:</label>
+    <select name="State">
+    <option value="California">California</option>
+    <option value="Oregon">Oregon</option>
+    <option value="Washington">Washington</option>
+    <option value="Nevada">Nevada</option>
+    <option value="Arizona">Arizona</option>
+</select>
+
+    </div>
+<br /> 
+
+<input type = "submit" value = "Go">
+
+</div>
+</form>
+
+<div id="media">
+    <img src='fb.jpeg'> 
+    <img src='x.jpeg'>
+</div>
+
+
+</body>
+
+</html>
